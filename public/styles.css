@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  h1, h2 {
+    color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  form label {
+    display: block;
+    margin: 5px 0;
+  }
+  form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #0056b3;
+  }
+  .room {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+  }
+  .room button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .room button:hover {
+    background-color: #0056b3;
+  }
+
+/* Formulario para añadir habitación */
+#add-room {
+  max-width: 50%; /* Limitar el ancho máximo al 50% del contenedor */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+  padding: 16px; /* Espaciado interno */
+  border: 1px solid #ddd; /* Agregar un borde ligero */
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #f9f9f9; /* Fondo ligeramente gris */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un diseño más moderno */
+}
+
+/* Estilos de los elementos dentro del formulario */
+#add-room form label {
+  display: block; /* Asegurar que las etiquetas estén en línea separada */
+  margin-bottom: 8px;
+}
+
+#add-room form input,
+#add-room form select,
+#add-room form button {
+  width: 100%; /* Asegurar que los campos ocupen el ancho completo del formulario */
+  margin-bottom: 16px; /* Espaciado entre elementos */
+  padding: 8px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde ligero */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 1rem; /* Tamaño de fuente legible */
+}
+
+/* Estilo del botón */
+#add-room form button {
+  background-color: #007bff; /* Color principal */
+  color: white; /* Texto en blanco */
+  border: none; /* Sin borde adicional */
+  cursor: pointer; /* Cambiar a puntero al pasar por encima */
+}
+
+#add-room form button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+/* Contenedor de las habitaciones */
+.room-container {
+  display: flex; /* Activar Flexbox */
+  flex-wrap: wrap; /* Permitir que las tarjetas pasen a la siguiente fila si no caben */
+  gap: 16px; /* Espacio entre las tarjetas */
+  justify-content: flex-start; /* Alinear las tarjetas hacia la izquierda */
+  padding: 16px;
+  width: 100%; /* Asegurar que el contenedor ocupe todo el ancho */
+  box-sizing: border-box; /* Incluye padding en el tamaño total */
+}
+
+/* Tarjeta individual */
+.room-card {
+  flex: 0 1 calc(25% - 16px); /* Cada tarjeta ocupa el 25% del ancho menos el espacio */
+  max-width: calc(25% - 16px); /* Limitar el ancho máximo al 25% menos el gap */
+  min-width: 200px; /* Asegurar un tamaño mínimo para pantallas pequeñas */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título */
+.room-card h3 {
+  font-size: 1.25em;
+  margin-bottom: 8px;
+}
+
+/* Texto */
+.room-card p {
+  margin: 4px 0;
+}
+
+/* Botones */
+.room-card button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+button.reserve {
+  background-color: #007bff;
+  color: white;
+}
+
+button.pay {
+  background-color: #28a745;
+  color: white;
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: white;
+}
