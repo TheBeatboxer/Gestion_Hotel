@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  # Monitorear el servicio de Prometheus
+  - job_name: "prometheus_service"
+    static_configs:
+      - targets: ["prometheus:9090"]
+
+  # Monitorear tu aplicación Node.js
+  - job_name: "nodejs_service"
+    static_configs:
+      - targets: ["node_app:5000"]
