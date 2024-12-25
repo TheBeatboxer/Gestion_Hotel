@@ -1,0 +1,2 @@
+Se volvio a grabar por problemas con el audio 
+https://unasedu.sharepoint.com/:v:/s/grabaciones541/EcHlolthGABNiF0FbwFYhDEB4KntrDA7drkNSsiCujhtSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=I3GH75
